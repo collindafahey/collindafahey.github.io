@@ -80,6 +80,7 @@ footer {
     font-size: larger;
 }
 
+/* The following code adapted from w3schools */
 button {
     -webkit-animation-name: btnColor; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
