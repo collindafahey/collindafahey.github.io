@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Concert One', sans-serif;
+    font-size: large;
+    background: url(images/space.jpg);
+    background-size: cover;
+}
+
+header {
+    background: #ed70b4;
+}
+
+.nav-link {
+    color: aliceblue;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.active {
+    background: deeppink;
+}
+
+a:active {
+    color: deeppink;
+}
+
+a:hover {
+    color: lightskyblue;
+}
+
+.mainContainer {
+    background: lightskyblue;
+    max-width: 60%;
+    margin-top: 3rem;
+    /*margin-bottom: 3rem;*/
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-radius: 0.5%;
+}
+
+.triangleContainer {
+    display: flex;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 3rem solid transparent;
+    border-right: 3rem solid transparent;
+    border-top: 3rem solid lightskyblue;
+    margin-bottom: 1rem;
+    border-radius: 0.5%;
+}
+
+
+legend {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    background:rgba(96,140,198,0.5);
+    padding: 1rem;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.form-group {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.btn {
+    font-size: larger;
+}
+
+button {
+    -webkit-animation-name: btnColor; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    animation-name: btnColor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes btnColor {
+    from {background-color: darkblue;}
+    to {background-color: dodgerblue;}
+}
+
+/* Standard syntax */
+@keyframes btnColor {
+    from {background-color: darkblue;}
+    to {background-color: dodgerblue;}
+}
