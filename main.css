@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+/* All Section Styles */
 body {
     font-family: 'Concert One', sans-serif;
     font-size: large;
@@ -7,6 +8,7 @@ body {
     background-size: cover;
 }
 
+/* Header Styles */
 header {
     background: #ed70b4;
 }
@@ -29,11 +31,11 @@ a:hover {
     color: lightskyblue;
 }
 
+/* Main Section Styles */
 .mainContainer {
     background: lightskyblue;
     max-width: 60%;
     margin-top: 3rem;
-    /*margin-bottom: 3rem;*/
     padding-top: 2rem;
     padding-bottom: 1rem;
     border-radius: 0.5%;
@@ -43,6 +45,7 @@ a:hover {
     display: flex;
 }
 
+/* The following code was adapted from: https://css-tricks.com/the-shapes-of-css/ */
 .triangle {
     width: 0;
     height: 0;
@@ -53,34 +56,28 @@ a:hover {
     border-radius: 0.5%;
 }
 
+.form-group {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 
 legend {
     text-align: center;
     padding-bottom: 1rem;
 }
 
-footer {
-    text-align: center;
-    background:rgba(96,140,198,0.5);
-    padding: 1rem;
-}
-
+/* Button Styles */
 .btnContainer {
     display: flex;
     justify-content: center;
     margin-bottom: 3rem;
 }
 
-.form-group {
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-
 .btn {
     font-size: larger;
 }
 
-/* The following code adapted from w3schools */
+/* The following code was adapted from w3schools */
 button {
     -webkit-animation-name: btnColor; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
@@ -100,4 +97,11 @@ button {
 @keyframes btnColor {
     from {background-color: darkblue;}
     to {background-color: dodgerblue;}
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background:rgba(96,140,198,0.5);
+    padding: 1rem;
 }
